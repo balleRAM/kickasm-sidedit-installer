@@ -36,13 +36,15 @@ Note that some of the commands that the script runs will require sudo (super use
 Usage
 =====
 
-In terminal after installation, to compile your KickAsm source code, just type:
+In terminal after installation, to compile your KickAsm source code, just type in terminal:
+
 ```kickasm mycode.asm -o myprogram.prg```
 
-It's also possible to use the default Java command line phrase, which is not as convenient:
+It's also possible to use the default Java command line phrase, which however is not as convenient:
+
 ```java -jar KickAss.jar mycode.asm -o myprogram.prg```
 
-That's the reason why I added the 'kickasm' alias to be added into ~/.bashrc. It also enables running KickAssembler easily from any desired directory.
+That's the reason why I added the 'kickasm' alias to be added into ~/.bashrc. It also enables running KickAssembler easily from any desired directory from the command line.
 
 All in all ... Couldn't be simpler! :-) Happy retro-coding!
 
