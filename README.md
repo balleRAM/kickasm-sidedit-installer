@@ -1,12 +1,14 @@
 # kickasm-SIDedit-installer
 
-A quite straightforward and beginner-friendly Linux Bash installation script for KickAssembler v5.9 (a Commodore 64 assembler tool that runs on Java SDK) and also grabs nurpax's C64 SIDEdit GitHub repository, which comes with KickAssembler-ready .asm source code examples for the Commodore 64, enabling a newcomer into C64 assembler to start meddling with the C64's SID audio chip functionality in no time.
+A quite straightforward and beginner-friendly Linux Bash installation script for KickAssembler v5.9 (a Commodore 64 .PRG assembler tool that runs on Java SDK). The script also grabs nurpax's C64 SIDEdit from the corresponding GitHub repository. 
+
+The C64 SIDedit package comes with KickAssembler-ready .asm source code examples for the Commodore 64, enabling a newcomer to get into C64 assembler and start tinkering with the C64's SID audio chip functionality in no time.
 
 If you have the VICE C64 emulator ( http://vice-emu.sourceforge.net/ ) installed on your system as well, this makes a very nice developer kit-combo to get started with Commodore 64 assembler coding and compiling in a Linux environment. 
 
 The script might seem a bit spoon-feeding childish for advanced users, but it is really intended for those who want to get a working Commodore 64 assembler on their Linux setup.
 
-This script is aimed for Raspbian Buster users who are using Raspberry Pi 4B and that is the platform the script has been tested on. It should however work for any mainstream Linux distro users as well. The overall point in the script is to "Keep it simple, stupid."
+This script is aimed for Raspbian Buster users who are using Raspberry Pi 4B and that is the platform the script has been tested on. It should however work for any mainstream Linux distro users as well. The overall point of this script is to "Keep it fast and simple, stupid."
 
 The script itself is quite self-explanatory and step-by-step verbose. It first looks for necessary prerequisites and installs what is not found using apt-get and aptitude (aptitude will be installed if not found).
 
