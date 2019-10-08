@@ -6,7 +6,7 @@ The C64 SIDedit package comes with KickAssembler-ready .asm source code examples
 
 If you have the VICE C64 emulator ( http://vice-emu.sourceforge.net/ ) installed with the VICE Monitor function and CPU History functionality enabled in it, adding this package to your toolbox creates a very nice setup to get started with Commodore 64 assembler coding and compiling in a Linux environment - even on a ARM/ARM64 based architecture such as the Raspberry Pi.
 
-The script might seem a bit spoon-feeding childish for some advanced users, but it is really intended for those who want to get a working Commodore 64 assembler on their Linux setup as quickly and as painlessly as possible. The real anguish usually awaits on the other side once you get there, so let's make the first part of the journey smooth. :-D 
+The installer script might seem a bit spoon-feeding childish for some advanced users, but it is really intended for those who want to get a working Commodore 64 assembler on their Linux setup as quickly and as painlessly as possible. The real anguish usually awaits on the other side once you get there, so let's make the first part of the journey smooth. :-D 
 
 This installer is aimed for Raspbian Buster users who are using Raspberry Pi 4B and that is the platform the script has been tested on. It should however work within any mainstream Linux distribution as well. The overall point of this script is to "Keep it fast and simple, stupid."
 
