@@ -8,7 +8,7 @@ If you have the VICE C64 emulator ( http://vice-emu.sourceforge.net/ ) installed
 
 The script might seem a bit spoon-feeding childish for advanced users, but it is really intended for those who want to get a working Commodore 64 assembler on their Linux setup.
 
-This script is aimed for Raspbian Buster users who are using Raspberry Pi 4B and that is the platform the script has been tested on. It should however work for any mainstream Linux distro users as well. The overall point of this script is to "Keep it fast and simple, stupid."
+This script is aimed for Raspbian Buster users who are using Raspberry Pi 4B and that is the platform the script has been tested on. It should however work within any mainstream Linux distribution as well. The overall point of this script is to "Keep it fast and simple, stupid."
 
 The script itself is quite self-explanatory and step-by-step verbose. It first looks for necessary prerequisites and installs what is not found using apt-get and aptitude (aptitude will be installed if not found).
 
