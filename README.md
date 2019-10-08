@@ -1,6 +1,6 @@
 # kickasm-sidedit-installer
 
-A quite straightforward Linux Bash installation script for KickAssembler v5.9 (a Commodore 64 assembler tool that runs on Java SDK), also included are nurpax's C64 SIDEdit Git repo that comes with KickAssembler .asm source code examples which are extremely easy to compile. 
+A quite straightforward and beginner-friendly Linux Bash installation script for KickAssembler v5.9 (a Commodore 64 assembler tool that runs on Java SDK), also included are nurpax's C64 SIDEdit Git repo that comes with KickAssembler .asm source code examples which are extremely easy to compile. 
 
 If you have VICE installed as well, this makes a very nice combo in getting started with Commodore 64 assembler in Linux. 
 
@@ -12,9 +12,9 @@ The script itself is quite self-explanatory and step-by-step verbose. It first l
 
 Main packages that are included installation processes:
 
-# Open Java SE13 kit via aptitude
-# http://theweb.dk/KickAssembler/ - KickAssembler v5.9 for Java SDK
-# https://github.com/nurpax/c64-sid-edit - C64 SID Edit package by nurpax
+- Open Java SE13 kit via aptitude
+- http://theweb.dk/KickAssembler/ - KickAssembler v5.9 for Java SDK
+- https://github.com/nurpax/c64-sid-edit - C64 SID Edit package by nurpax
 
 The lastmentioned comes with assembler source code examples for the Commodore 64 that are great for any beginner who wants to learn how to code the C64 SID sound module functionality using C64 assembly.
 
