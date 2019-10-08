@@ -4,7 +4,7 @@ A quite straightforward and beginner-friendly Linux Bash installation script for
 
 The C64 SIDedit package comes with KickAssembler-ready .asm source code examples for the Commodore 64, enabling a newcomer to get into C64 assembler and start tinkering with the C64's SID audio chip functionality in no time.
 
-If you have the VICE C64 emulator ( http://vice-emu.sourceforge.net/ ) installed with the VICE Monitor function and CPU History functionality enabled in it, adding this package to your toolbox creates a very nice setup to get started with Commodore 64 assembler coding and compiling in a Linux environment - even on a ARM/ARM64 based architecture such as the Raspberry Pi.
+If you have the [VICE C64 emulator](http://vice-emu.sourceforge.net/) installed with its Monitor function and CPU History functionality enabled, adding this package to your toolbox creates a very nice setup to get started with Commodore 64 assembler coding and compiling in a Linux environment - even on a ARM/ARM64 based architecture such as the Raspberry Pi.
 
 The installer script might seem a bit spoon-feeding childish for some advanced users, but it is really intended for those who want to get a working Commodore 64 assembler on their Linux setup as quickly and as painlessly as possible. The real anguish usually awaits on the other side once you get there, so let's make the first part of the journey smooth. :-D 
 
