@@ -1,6 +1,6 @@
 # kickasm-SIDedit-installer
 
-A quite straightforward and beginner-friendly Linux Bash installation script for KickAssembler v5.9 (a Commodore 64 .PRG assembler tool that runs on Java SDK). The script also grabs nurpax's C64 SIDEdit from the corresponding GitHub repository. 
+A quite straightforward and beginner-friendly Linux Bash installation script for KickAssembler v5.9 (a Commodore 64 .PRG assembler tool that runs on Java SDK). The script also grabs nurpax's C64 SIDEdit GitHub repository along for code examples.
 
 The C64 SIDedit package comes with KickAssembler-ready .asm source code examples for the Commodore 64, enabling a newcomer to get into C64 assembler and start tinkering with the C64's SID audio chip functionality in no time.
 
@@ -10,7 +10,7 @@ The script might seem a bit spoon-feeding childish for some advanced users, but 
 
 This script is aimed for Raspbian Buster users who are using Raspberry Pi 4B and that is the platform the script has been tested on. It should however work within any mainstream Linux distribution as well. The overall point of this script is to "Keep it fast and simple, stupid."
 
-The script itself is quite self-explanatory and step-by-step verbose. It first looks for necessary prerequisites and installs what is not found using apt-get and aptitude (aptitude will be installed if not found).
+The script itself is quite self-explanatory and step-by-step verbose. The user can change the installation directory during the script process. The script first initializes by looking for the necessary prerequisites and installs those not found, using apt-get and aptitude (aptitude will be installed if it's not found.)
 
 Main packages that are included in the list that script grabs from the Internet and installs:
 
