@@ -26,7 +26,7 @@ Installation
 1. Open up your Linux terminal, ```sudo apt install git``` if you don't have git installed yet.
 2. _Preferably, run the installation from your home directory. To make sure you're in there, type in ```cd```_
 2. ```git clone https://github.com/balleRAM/kickassembler-SIDedit-installer```
-3. After cloning, enter the git repo directory; ```cd kickassembler-SIDedit-installer```
+3. After cloning, enter the git repo directory; ```cd kickassembler-SIDedit-installer/```
 4. ```./kickasminstaller.sh``` and press ENTER to begin the installation.
 5. Follow the instructions on screen. Missing dependencies will be downloaded as well as the program files.
 
