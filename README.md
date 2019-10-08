@@ -12,7 +12,7 @@ This script is aimed for Raspbian Buster users who are using Raspberry Pi 4B and
 
 The script itself is quite self-explanatory and step-by-step verbose. It first looks for necessary prerequisites and installs what is not found using apt-get and aptitude (aptitude will be installed if not found).
 
-Main packages that are included installation processes:
+Main packages that are included in the list that script grabs from the Internet and installs:
 
 - Open Java SE13 kit via aptitude
 - http://theweb.dk/KickAssembler/ - KickAssembler v5.9 for Java SDK
