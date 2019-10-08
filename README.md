@@ -1,6 +1,6 @@
 # kickasm-SIDedit-installer
 
-A quite straightforward and beginner-friendly Linux Bash installation script for [Kick Assembler v5.9](http://www.theweb.dk/KickAssembler/Main.html#frontpage), a Commodore 64 assembler tool application that runs on Java SDK. The installer also grabs along [nurpax's C64 SIDEdit GitHub repository](https://github.com/nurpax/c64-sid-edit) for a few fun C64 asm program code examples.
+A quite straightforward and beginner-friendly Linux Bash installation script for [Kick Assembler v5.9](http://www.theweb.dk/KickAssembler/Main.html#frontpage), a cross-platform Commodore 64 assembler tool that runs on Java SDK. The installer also grabs along [nurpax's C64 SIDEdit GitHub repository](https://github.com/nurpax/c64-sid-edit) for a few fun C64 asm program code examples.
 
 The C64 SIDedit package comes with KickAssembler-ready .asm source code examples for the Commodore 64, enabling a newcomer to get into C64 assembler and start tinkering with the C64's SID audio chip functionality in no time.
 
@@ -50,4 +50,7 @@ All in all ... Couldn't be simpler! :-) Happy retro-coding!
 TODO
 ====
 
-- More installation choices and options for the user, etc, yadayada. Don't hold your breath on those, feel free to fork this one. Cheers.
+- More installation choices and options for the user, error checks, installation package handling, etc, yadayada. 
+- Will probably implement a grabber-installer for [Sidreloc](http://www.linusakesson.net/software/sidreloc/) as well, as it's quite essential for anybody who wants to probe into the realm of programming SID stuff for the C64.
+
+Don't hold your breath on those, feel free to fork this one. Cheers.
