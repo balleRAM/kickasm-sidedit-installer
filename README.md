@@ -35,7 +35,7 @@ Note that some of the commands that the script runs will require sudo (super use
 Usage
 =====
 
-In terminal after installation, to compile your KickAsm source code, just type in terminal:
+After installation, to compile your KickAsm source code, just type in terminal:
 
 ```kickasm mycode.asm -o myprogram.prg```
 
