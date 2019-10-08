@@ -12,7 +12,7 @@ This installer is aimed for Raspbian Buster users who are using Raspberry Pi 4B 
 
 The script itself is quite self-explanatory and step-by-step verbose. The user can change the installation directory during the script process. The script first initializes by looking for the necessary prerequisites and installs those not found, using apt-get and aptitude (aptitude will be installed if it's not found.)
 
-## The script will automagically install prequisites if required, as well as:
+### The script will automagically install prequisites if required, and:
 
 - [Open Java SE JDK 13 kit](https://openjdk.java.net/projects/jdk/13/) via aptitude **(if required)**
 - http://theweb.dk/KickAssembler/ - KickAssembler v5.9 for Java SDK
