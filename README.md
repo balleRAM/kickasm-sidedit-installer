@@ -23,10 +23,10 @@ The installer script will also create a ~/.bashrc alias for the user called 'kic
 Installation
 ============
 
-1. Open up your Linux terminal, ´´´sudo apt install git´´´ if you don't have git installed yet.
-2. Preferably, do the installation from your home directory; to make sure you're in there, type:´´´cd´´´´
-2. Enter: ´´´git clone https://github.com/balleRAM/kickassembler-SIDedit-installer´´´
-3. Enter the git repo directory; ´´´cd kickassembler-SIDedit-installer´´´
+1. Open up your Linux terminal, ```sudo apt install git``` if you don't have git installed yet.
+2. Preferably, do the installation from your home directory; to make sure you're in there, type in ```cd```
+2. Enter: ```git clone https://github.com/balleRAM/kickassembler-SIDedit-installer```
+3. After cloning, enter the git repo directory; ```cd kickassembler-SIDedit-installer```
 4. Enter: ```./kickasminstaller.sh``` and press ENTER.
 5. Follow the instructions on screen. Missing dependencies will be downloaded as well as the program files.
 
