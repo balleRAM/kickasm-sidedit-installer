@@ -23,16 +23,18 @@ The installer script will also create a ~/.bashrc alias for the user called 'kic
 Installation
 ============
 
-# 1. Save the 'kickasminstaller.sh' file preferably into your home directory ( /home/<your username>/ )
-# 2. Open up your Linux terminal
-# 3. Type in the following command: ```chmod +x kickasminstaller.sh``` and press ENTER.
-# 4. Type in the following command: ```./kickasminstaller.sh``` and press ENTER.
-# 5. Follow the instructions on screen.
-#
+1. Save the 'kickasminstaller.sh' file preferably into your home directory ( /home/<your username>/ )
+2. Open up your Linux terminal
+3. Type in the following command: ```chmod +x kickasminstaller.sh``` and press ENTER.
+4. Type in the following command: ```./kickasminstaller.sh``` and press ENTER.
+5. Follow the instructions on screen.
+
 # Note that some of the commands that the script runs will require sudo (super user) privileges -- you will be prompted for that if needed.
 
 Usage
 =====
+
+In terminal after installation, just type:
 ```kickasm mycode.asm -o myprogram.prg```
 
 It's also possible to use the default Java command line phrase, which is not as convenient:
@@ -40,5 +42,5 @@ It's also possible to use the default Java command line phrase, which is not as 
 
 That's the reason why I added the 'kickasm' alias to be added into ~/.bashrc. It also enables running KickAssembler easily from any desired directory.
 
-All in all ... Couldn't be simpler! :-)
+All in all ... Couldn't be simpler! :-) Happy retro-coding!
 
