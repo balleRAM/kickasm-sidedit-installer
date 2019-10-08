@@ -23,7 +23,7 @@ The installer script will also create a ~/.bashrc alias for the user called 'kic
 Installation
 ============
 
-1. Save the 'kickasminstaller.sh' file preferably into your home directory ( /home/<your username>/ )
+1. Save the 'kickasminstaller.sh' file preferably into your home directory ( /home/your-username/ )
 2. Open up your Linux terminal and make sure you're in the directory with ```kickasminstaller.sh``` file in it.
 3. Type in the following command: ```chmod +x kickasminstaller.sh``` and press ENTER.
 4. Type in the following command: ```./kickasminstaller.sh``` and press ENTER.
