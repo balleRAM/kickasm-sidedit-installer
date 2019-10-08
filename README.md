@@ -29,7 +29,7 @@ Installation
 4. Type in the following command: ```./kickasminstaller.sh``` and press ENTER.
 5. Follow the instructions on screen.
 
-# Note that some of the commands that the script runs will require sudo (super user) privileges -- you will be prompted for that if needed.
+Note that some of the commands that the script runs will require sudo (super user) privileges -- you will be prompted for that if it's needed.
 
 Usage
 =====
