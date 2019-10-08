@@ -35,9 +35,9 @@ Note that some of the commands that the script runs will require sudo (super use
 Usage
 =====
 
-After installation, to compile your KickAsm source code, just type in terminal:
+**After installation, to compile your KickAsm source code, just type into your terminal:**
 
-```kickasm mycode.asm -o myprogram.prg```
+**```kickasm mycode.asm -o myprogram.prg```**
 
 It's also possible to use the default Java command line phrase from the installation directory, which however is not as convenient, since the 'kickasm' alias works universally:
 
