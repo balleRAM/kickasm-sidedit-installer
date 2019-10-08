@@ -12,9 +12,9 @@ This installer is aimed for Raspbian Buster users who are using Raspberry Pi 4B 
 
 The script itself is quite self-explanatory and step-by-step verbose. The user can change the installation directory during the script process. The script first initializes by looking for the necessary prerequisites and installs those not found, using apt-get and aptitude (aptitude will be installed if it's not found.)
 
-Main packages that are included in the list that script grabs from the Internet and installs:
+Main packages that are included in the list that script downloads from the Internet and installs:
 
-- Open Java SE13 kit via aptitude
+- Open Java SE13 kit via aptitude (if required)
 - http://theweb.dk/KickAssembler/ - KickAssembler v5.9 for Java SDK
 - https://github.com/nurpax/c64-sid-edit - C64 SID Edit by nurpax, with .asm source code examples
 
