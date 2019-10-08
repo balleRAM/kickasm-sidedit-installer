@@ -12,22 +12,24 @@ The script itself is quite self-explanatory and step-by-step verbose. It first l
 
 Main packages that are included installation processes:
 
-Open Java SE13 kit via aptitude
-http://theweb.dk/KickAssembler/ - KickAssembler v5.9 for Java SDK
-https://github.com/nurpax/c64-sid-edit - C64 SID Edit package by nurpax (comes with assembler source code examples for the Commodore 64 that are great for any beginner who wants to learn how to code the C64 SID sound module functionality using assembly.)
+# Open Java SE13 kit via aptitude
+# http://theweb.dk/KickAssembler/ - KickAssembler v5.9 for Java SDK
+# https://github.com/nurpax/c64-sid-edit - C64 SID Edit package by nurpax
+
+The lastmentioned comes with assembler source code examples for the Commodore 64 that are great for any beginner who wants to learn how to code the C64 SID sound module functionality using C64 assembly.
 
 The installer script will also create a ~/.bashrc alias for the user called 'kickasm', which will enable the user to call the KickAssembler via the terminal command line interface just by typing 'kickasm'.
 
 Installation
 ============
 
-## 1. Save the 'kickasminstaller.sh' file preferably into your home directory ( /home/<your username>/ )
-## 2. Open up your Linux terminal
-## 3. Type in the following command: ```chmod +x kickasminstaller.sh``` and press ENTER.
-## 4. Type in the following command: ```./kickasminstaller.sh``` and press ENTER.
-## 5. Follow the instructions on screen.
-##
-## Note that some of the commands that the script runs will require sudo privileges -- you will be prompted for that if needed.
+# 1. Save the 'kickasminstaller.sh' file preferably into your home directory ( /home/<your username>/ )
+# 2. Open up your Linux terminal
+# 3. Type in the following command: ```chmod +x kickasminstaller.sh``` and press ENTER.
+# 4. Type in the following command: ```./kickasminstaller.sh``` and press ENTER.
+# 5. Follow the instructions on screen.
+#
+# Note that some of the commands that the script runs will require sudo (super user) privileges -- you will be prompted for that if needed.
 
 Usage
 =====
