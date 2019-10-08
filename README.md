@@ -30,7 +30,7 @@ Installation
 4. ```./kickasminstaller.sh``` and press ENTER to begin the installation.
 5. Follow the instructions on screen. Missing dependencies will be downloaded as well as the program files.
 
-Note that some of the commands that the script runs will require sudo (super user) privileges -- you will be prompted for that if it's needed.
+Note that some of the commands that the script runs will require sudo (super user) privileges -- you will be prompted for your user password if elevated rights are needed during install.
 
 Usage
 =====
