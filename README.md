@@ -1,10 +1,10 @@
-# kickasm-sidedit-installer
+# kickasm-SIDedit-installer
 
-A quite straightforward and beginner-friendly Linux Bash installation script for KickAssembler v5.9 (a Commodore 64 assembler tool that runs on Java SDK), also included are nurpax's C64 SIDEdit Git repo that comes with KickAssembler .asm source code examples which are extremely easy to compile. 
+A quite straightforward and beginner-friendly Linux Bash installation script for KickAssembler v5.9 (a Commodore 64 assembler tool that runs on Java SDK) and also grabs nurpax's C64 SIDEdit GitHub repository that comes with KickAssembler .asm source code examples for meddling with the SID audio and are extremely easy to use.
 
-If you have VICE installed as well, this makes a very nice combo in getting started with Commodore 64 assembler in Linux. 
+If you have the VICE C64 emulator ( http://vice-emu.sourceforge.net/ ) installed on your system as well, this makes a very nice developer kit-combo to get started with Commodore 64 assembler coding and compiling in a Linux environment. 
 
-The script might seem a bit spoon-feeding childish, but it is really intended for those who want to get a working Commodore 64 assembler on their Linux setup.
+The script might seem a bit spoon-feeding childish for advanced users, but it is really intended for those who want to get a working Commodore 64 assembler on their Linux setup.
 
 This script is aimed for Raspbian Buster users who are using Raspberry Pi 4B and that is the platform the script has been tested on. It should however work for any mainstream Linux distro users as well. The overall point in the script is to "Keep it simple, stupid."
 
@@ -24,7 +24,7 @@ Installation
 ============
 
 1. Save the 'kickasminstaller.sh' file preferably into your home directory ( /home/<your username>/ )
-2. Open up your Linux terminal
+2. Open up your Linux terminal and make sure you're in the directory with ```kickasminstaller.sh``` file in it.
 3. Type in the following command: ```chmod +x kickasminstaller.sh``` and press ENTER.
 4. Type in the following command: ```./kickasminstaller.sh``` and press ENTER.
 5. Follow the instructions on screen.
