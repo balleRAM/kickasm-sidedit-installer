@@ -29,8 +29,8 @@ Installation
 ##
 ## Note that some of the commands that the script runs will require sudo privileges -- you will be prompted for that if needed.
 
-Example
-=======
+Usage
+=====
 ```kickasm mycode.asm -o myprogram.prg```
 
 It's also possible to use the default Java command line phrase, which is not as convenient:
